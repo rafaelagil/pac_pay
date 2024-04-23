@@ -34,6 +34,7 @@ namespace PacPay.Api.Controladores.Contas
             }
             catch (Exception ex)
             {
+                /* */
                 return StatusCode(500, ex.Message);
             }
         }
